@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>분실물 찾기</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/styles.css" rel="stylesheet" />
+    
+    <style>
+      * {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 992px;
+  font-family: "Helvetica";
+}
+
+/* navbar */
+.navbar{
+  height: 60px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.navbar #logo {
+  line-height: 60px;
+}
+.navbar #logo img{
+  vertical-align: middle;
+}
+
+.navbar #menu {
+  float: right;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  
+}
+.navbar #menu li {
+  float:left;
+  margin-left: 50px;
+  line-height: 60px;
+}
+
+.navbar #menu li a {
+  text-decoration: none;
+  color: #545454 ;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+/* hero header */
+.hero-header{
+  height: 450px;
+  background-image: url("../images/hero_header.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  
+}
+/* products */
+
+.products h3{
+  font-size: 24px;
+  color: #545454;
+  font-weight: bold;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  text-align: center;
+}
+.product-list{
+  width: 735px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.product{
+  width: 225px;
+  text-align: center;
+  display: block;
+  color: #545454;
+  text-decoration: none;
+  float: left;
+  margin-left:10px;
+  margin-right: 10px;
+  margin-bottom: 80px;
+  
+}
+
+.product-name{
+  margin-top: 20px;
+  margin-bottom: 4px;
+  
+}
+.clearfix{
+  clear: both;
+}
+/* footer */
+.footer{
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 80px;
+
+}
+.footer a{
+  margin-left: 10px;
+  margin-right: 10px;
+  text-decoration: none;
+}
+
+    </style>
+
+  </head>
+
+  <body>
+    <div class="navbar">
+      <a href="#" id="logo">
+        <img src="images/logo.png" width="149">
+        </a>
+        <ul id="menu">  
+          <li><a href="#">contact</a></li>
+          <li><a href="#">shop</a></li>
+          <li><a href="#">cart</a></li>
+          <li><a href="#">login</a></li>
+        </ul>
+    </div>
+    <div class="hero-header"></div>  
+    
+    
+    <div class="products">
+      <h3>분실물</h3>
+      <div class="product-list">
+        <a href="#" class="product">
+          <img src="images/sunglasses.jpg" width="225">
+          <div class="product-name">
+            sunglasses
+          </div>
+          <div class="product-price">위치</div>
+        </a>
+        
+        <a href="#" class="product">
+          <img src="images/tassel_loafer.jpg" width="225">
+          <div class="product-name">
+            tassel_loafer
+          </div>
+          <div class="product-price">위치</div>
+        </a>
+        
+        <a href="#" class="product">
+          <img src="images/beige_bag.jpg" width="225">
+          <div class="product-name">
+            beige_bag
+          </div>
+          <div class="product-price">위치</div>
+        </a>
+        
+        <a href="#" class="product">
+          <img src="images/sneakers.jpg" width="225">
+          <div class="product-name">
+            sneakers.jpg
+          </div>
+          <div class="product-price">위치</div>
+        </a>
+        
+        <a href="#" class="product">
+          <img src="images/slippers.jpg" width="225">
+          <div class="product-name">
+            slippers
+          </div>
+          <div class="product-price">위치</div>
+        </a>
+        
+        <a href="#" class="product">
+          <img src="images/wrist_watch.jpg" width="225">
+          <div class="product-name">
+            wrist_watch
+          </div>
+          <div class="product-price">위치</div>
+        </a>
+        
+        <a href="#" class="product">
+          <img src="images/fedora_hat.jpg" width="225">
+          <div class="product-name">
+            fedora_hat
+          </div>
+          <div class="product-price">위치</div>
+        </a>
+        
+        <a href="#" class="product">
+          <img src="images/classic_loafer.jpg" width="225">
+          <div class="product-name">
+            classic_loafer
+          </div>
+          <div class="product-price">위치</div>
+        </a>
+        
+        <a href="#" class="product">
+          <img src="images/pink_bag.jpg" width="225">
+          <div class="product-name">
+            pink_bag
+          </div>
+          <div class="product-price">위치</div>
+        </a>
+        <div class="clearfix"></div>
+      </div>
+    </div>
+    
+    <div class="footer">
+      <a href="http://facebook.com">
+        <img src="images/facebook.png"height="20">
+      </a>
+      <a href="http://instagram.com">
+        <img src="images/instagram.png"height="20">
+      </a>
+      <a href="http://twitter.com">
+        <img src="images/twitter.png"height="20">
+      </a>
+    </div>
+  </body>
+</html>
